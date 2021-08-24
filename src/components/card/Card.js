@@ -4,18 +4,18 @@ import { categories } from "../helper/data";
 import Item from '../item/Item';
 
 const Card = () => {
-    return(
-       
+    return (
+
         <div className='cards-area-container'>
             <h5 className='language-title'>Languages</h5>
-        
+
             <div className='cards-container'>
-        {categories.map((categEl, index) =>{
-            return <Item card={categEl} key={index} />
-        })}
+                {categories.map((catElement, index) => {
+                    return <Item card={catElement} key={index} />
+                })}
             </div>
-            </div>
-           
+        </div>
+
     );
 };
 export default Card;
