@@ -10,7 +10,7 @@ function App() {
     <div className="main-container">
      <Header />
      <Card />
-     <Item />
+     {/* <Item /> */}
     </div>
   );
 }

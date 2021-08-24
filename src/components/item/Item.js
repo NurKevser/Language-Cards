@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import Card from '../card/Card';
+
 
 function Item({ card }) {
+    console.log(card)
 
     const [showLogo, setShowLogo] = useState(true);
 
@@ -9,14 +10,14 @@ function Item({ card }) {
         <div className="card" onClick={() => setShowLogo(!showLogo)}>
             {showLogo ?
                 <>
-                    <img className="card-logo" src={card.img} alt="logo" />
-                    <h3 className="card-title" >{card.name}</h3>
+                    <img className='card-logo' src={card?.image} />
+                    <h3 className="card-title" >{card?.name}</h3>
                 </>
                 :
                 <ul className="list">
-                    {card.options.map((optelement, i) => {
+                    {card.options.map((optElement, i) => {
                         return <li key={i}>
-                            {optelement}
+                            {optElement}
                         </li>
                     })
                     }

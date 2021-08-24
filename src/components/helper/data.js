@@ -1,4 +1,4 @@
-import css from "../../assets/css.png";
+import css from "../../assets/cpp.png";
 import python from "../../assets/python.png";
 import java from "../../assets/java.png";
 import cpp from "../../assets/cpp.png";
@@ -10,42 +10,42 @@ import html from "../../assets/html.png";
 export const categories = [
   {
     name: "javascript",
-    img: javascript,
+    image: javascript,
     options: ["Website Development", "1995", "Brendan Eich"],
   },
   {
     name: "html",
-    img: html,
+    image: html,
     options: ["Website Development", "1993", "Tim Berners-Lee"],
   },
   {
     name: "css",
-    img: css,
+    image: css,
     options: ["Website Design", "1994", "Håkon Wium Lie"],
   },
   {
     name: "python",
-    img: python,
+    image: python,
     options: ["AI", "1980", "Guido van Rossum"],
   },
   {
     name: "java",
-    img: java,
+    image: java,
     options: ["BackEnd", "1990s", "Sun Microsystems"],
   },
   {
     name: "c++",
-    img: cpp,
+    image: cpp,
     options: ["Game Dev.", "1980s", "Bjarne Stroustrup"],
   },
   {
     name: "go",
-    img: go,
+    image: go,
     options: ["Network", "2009", "Robert Griesemer"],
   },
   {
     name: "php",
-    img: php,
-    options: ["BackEnd", "1995", "	Rasmus Lerdorf"],
+    image: php,
+    options: ["BackEnd", "1995", "Rasmus Lerdorf"],
   },
 ];
